@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf(" enter the greatest number ");
+    scanf("%d%d%d" , &a,&b,&c);
+    if(a>b);
+    if(a>c);
+    printf(" \n a is greatest");
+    printf(" \n c is greatest");
+    if(b>c);
+    printf(" \n b is greatest");
+    
+
+    return 0;
+}
