@@ -1,0 +1,29 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    int a[10],i,value,flag;
+    printf("enter array elements \n");
+    for(i=0;i<10;i++)
+    scanf("%d" , &a[i]);
+    printf(" array elements\n");
+    for(i=0;i<10;i++)
+    printf("%d\t" ,a[i]);
+    printf("enter a value to be searched\n");
+    scanf("%d" , &value);
+    for(i=0;i<10;i++)
+    {
+   if(value==a[i])
+        {
+            flag=1;
+            break;
+        }
+    }
+    if(flag==1)
+    printf("\n%d is found at %d index ", value,i);
+    else
+    printf(" \n element not found);
+
+    return 0;
+}
